@@ -1,0 +1,67 @@
+﻿body {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.7em;
+    font-family: Century Gothic, sans-serif;
+}
+
+.bgImage {            
+            
+              position: fixed;
+              top: 0; left: 0;
+              right: 0; bottom: 0;
+              z-index: -1;
+           -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+}
+.splash {
+    background-image: url('../_images/mainBg.jpg');
+    position: fixed;
+              top: 0; left: 0;
+              right: 0; bottom: 0;
+              z-index: -1;
+           -webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+}
+/*Named IDs*/
+#titleBar {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+#titlecontent>H1 {
+    color:#ffffff;
+    font-size:250%;
+   text-shadow: 4px 4px 4px #000;
+
+}
+#titlecontent>p {
+    color:#ffffff;
+    font-size:120%;
+    font-style: italic;
+    text-shadow: 4px 4px 4px #000;
+}
+
+ #titlecontainer {     
+        margin: auto;
+        position: absolute;
+        top: 0; left: 0; bottom: 0; right: 0;
+        display:table;     
+        height:200px;   
+        width:100%;        
+    }          
+    #titlelayout {     
+        display:table-row;            
+    }            
+    #titlecontent {     
+        display:table-cell;   
+        text-align:center;  
+        vertical-align:middle; 
+       
+        
+    } 
